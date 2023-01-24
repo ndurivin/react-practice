@@ -3,8 +3,9 @@ import React from 'react'
 function ContactCard(props) {
 
     const {id, name, email} = props.contact;
+
   return (
-    <div>
+    <div className='container'>
         <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col py-2">
           <div class="card">
